@@ -27,23 +27,22 @@ function resizeev() {
     $('#img2').height($(window).height() - $('#navi').height());
     $('#img3').height($(window).height() - $('#navi').height());
     $('#img4').height($(window).height() - $('#navi').height());
-    $(window).on('resize', function(){
-    $('#myCarousel').height($(window).height() - $('#navi').height());
-    $('#img1').height($(window).height() - $('#navi').height());
-    $('#img2').height($(window).height() - $('#navi').height());
-    $('#img3').height($(window).height() - $('#navi').height());
-    $('#img4').height($(window).height() - $('#navi').height());
-});
-
-    // var height = $(window).height();  //getting windows height
-    // var result1 = parseInt(height) - 180;
-    // jQuery('#myCarousel').css('height',result1+'px');   //and setting height of carousel
-  });
+    $('#myCarouselm').height($(window).height() - $('#navi').height());
+    $('#img1m').height($(window).height() - $('#navi').height());
+    $('#img2m').height($(window).height() - $('#navi').height());
+    $('#img3m').height($(window).height() - $('#navi').height());
+    $('#img4m').height($(window).height() - $('#navi').height());
+     jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000  // 2 seconds
+    });
   $( window ).on( "load", function() {
     $('#myCarousel').height($(window).height() - $('#navi').height());
     $('#img1').height($(window).height() - $('#navi').height());
     $('#img2').height($(window).height() - $('#navi').height());
     $('#img3').height($(window).height() - $('#navi').height());
     $('#img4').height($(window).height() - $('#navi').height());
+    $('#myCarouselm').height($(window).height() - $('#navi').height());
+    $('#img1m').height($(window).height() - $('#navi').height());
+    $('#img2m').height($(window).height() - $('#navi').height());
+    $('#img3m').height($(window).height() - $('#navi').height());
+    $('#img4m').height($(window).height() - $('#navi').height());
   });
-// $('#myCarousel').height($(window).height() - $('#navi').height());

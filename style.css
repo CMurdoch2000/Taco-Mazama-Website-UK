@@ -13,6 +13,12 @@
 .hideimenu{
   display: none !important;
 }
+#myCarouselm{
+  display: none !important;
+}
+a.linkswq:link {
+  font-size: 1.4em !important;
+}
 }
 
 @media not all and (min-width: 1140px) {
@@ -25,6 +31,12 @@
   }
   .hideim2{
     display: none !important;
+  }
+  #myCarousel{
+    display: none !important;
+  }
+  a.linkswq:link {
+    font-size: 0.8em !important;
   }
 }
 
@@ -246,6 +258,30 @@ a.linksw:hover {
 a.linksw:active {
   color: #b86a02 !important;
 }
+
+a.linkswq:link {
+  color: #fbf6e4 !important;
+  font-weight: bold !important;
+ text-decoration: none;
+}
+a.linkswq:visited {
+  color: #fbf6e4 !important;
+}
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+a.linkswq:hover {
+  color: #a4a095 !important;
+}
+
+a.linkswq:active {
+  color: #a4a095 !important;
+}
+
 
 /*==========Hero Section===========*/
 #hero3 {
