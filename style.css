@@ -16,6 +16,9 @@
 #myCarouselm{
   display: none !important;
 }
+#Topa{
+  display: none !important;
+}
 a.linkswq:link {
   font-size: 1.4em !important;
 }
@@ -33,6 +36,9 @@ a.linkswq:link {
     display: none !important;
   }
   #myCarousel{
+    display: none !important;
+  }
+  #Topm{
     display: none !important;
   }
   a.linkswq:link {
