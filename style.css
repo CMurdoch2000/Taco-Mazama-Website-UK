@@ -82,6 +82,39 @@ body.orpage {
   background-color: #ffffff;
 }
 
+.workmclick{
+cursor: pointer;
+ display: block;
+}
+
+
+#content { position: relative; }
+.info {
+    position: absolute;
+    color: white;
+    width: 180px;
+    height: 360px;
+    text-align: center;
+    display: none;
+    background-repeat: no-repeat;
+}
+
+.containerdiv {
+  border: 0;
+  float: inherit;
+  position: relative;
+}
+
+.hideim2 {
+    padding: 0;
+display: block;
+    margin: 0 auto;
+    max-height: 83vh;
+    max-width: 100%;
+}
+
+
+
 
 .hideim {
     padding: 0;
@@ -105,13 +138,7 @@ display: block;
     height: auto;
     width: 100%;
 }
-.hideim2 {
-    padding: 0;
-display: block;
-    margin: 0 auto;
-    max-height: 83vh;
-    max-width: 100%;
-}
+
 .mpadin{
   padding-top: 12.5vh;
   padding-bottom: 12.5vh;

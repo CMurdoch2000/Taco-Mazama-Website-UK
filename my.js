@@ -33,7 +33,34 @@ function resizeev() {
     $('#img3m').height($(window).height() - $('#navi').height());
     $('#img4m').height($(window).height() - $('#navi').height());
      jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000  // 2 seconds
+    $('map').imageMapResize();
+
+    var x;
+    var y;
+    var thisText;
+    var type;
+    $("area").hover(function(e){
+        thisText = $(this).attr("id");
+        type = $(this).attr("class")
+        var position = $(this).attr('coords').split(',');
+        x = +position[2] +250;
+        y = +position[1] -115;
+        if ($(".info").length != 0) {
+            $(".info").fadeOut(500).animate({left: x+'px'}, {queue: false, duration:350}).queue(function(){
+                $(this).remove();
+            });
+        }
+        $("#mapids").append("<div class='info' id='info"+thisText+"' style='left:"+x+"px;top:"+y+"px;background-image: url(img/"+thisText+".png);'></div>");
+        $("#info"+thisText).fadeIn(500).animate({left: x+20+'px'}, {queue: false, duration:350});
+    },
+    function() {
+        $("#info"+thisText).fadeOut(500).animate({left: x+'px'}, {queue: false, duration:350}).queue(function(){
+            $(this).remove();
+        });
     });
+    });
+
+
   $( window ).on( "load", function() {
     $('#myCarousel').height($(window).height() - $('#navi').height());
     $('#img1').height($(window).height() - $('#navi').height());
