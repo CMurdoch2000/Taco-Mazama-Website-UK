@@ -59,14 +59,15 @@ function resizeev() {
             $(this).remove();
         });
     });
-var ghost0 = document.getElementById('ghost0');
-thisTexts = $(ghost0).attr("id");
-types = $(ghost0).attr("class")
-var position = $(ghost0).attr('coords').split(',');
-x = +position[2] +250;
-y = +position[1] -115;
-$("#mapids").append("<div class='info0' id='info0"+thisTexts+"' style='left:"+x+"px;top:"+y+"px;background-image: url(img/"+thisTexts+".png);'></div>");
-
+    if (window.matchMedia("(min-width: 1140px)").matches && window.location.pathname == '/menu.html') {
+      var ghost0 = document.getElementById('ghost0');
+      thisTexts = $(ghost0).attr("id");
+      types = $(ghost0).attr("class")
+      var position = $(ghost0).attr('coords').split(',');
+      x = +position[2] +250;
+      y = +position[1] -115;
+      $("#mapids").append("<div class='info0' id='info0"+thisTexts+"' style='left:"+x+"px;top:"+y+"px;background-image: url(img/"+thisTexts+".png);'></div>");
+    }
     });
 
 
@@ -81,4 +82,17 @@ $("#mapids").append("<div class='info0' id='info0"+thisTexts+"' style='left:"+x+
     $('#img2m').height($(window).height() - $('#navi').height());
     $('#img3m').height($(window).height() - $('#navi').height());
     $('#img4m').height($(window).height() - $('#navi').height());
+
+    if (window.matchMedia("(min-width: 1140px)").matches && window.location.pathname == '/menu.html') {
+      var ghost0 = document.getElementById('ghost0');
+      thisTexts = $(ghost0).attr("id");
+      types = $(ghost0).attr("class")
+      var position = $(ghost0).attr('coords').split(',');
+      x = +position[2] +250;
+      y = +position[1] -115;
+      $("#mapids").append("<div class='info0' id='info0"+thisTexts+"' style='left:"+x+"px;top:"+y+"px;background-image: url(img/"+thisTexts+".png);'></div>");
+    }
+
+
+
   });
