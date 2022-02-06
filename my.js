@@ -11,7 +11,7 @@ function resizeev() {
     } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/sustainability.html') {
       document.body.style.overflow = "auto";
       document.body.style.height = "auto";
-    }  else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/menu.html') {
+    }  else if (window.location.pathname == '/menu.html') {
         document.body.style.overflow = "auto";
         document.body.style.height = "auto";
   }else {
@@ -40,6 +40,7 @@ function resizeev() {
     var thisText;
     var type;
     $("area").hover(function(e){
+
         thisText = $(this).attr("id");
         type = $(this).attr("class")
         var position = $(this).attr('coords').split(',');
@@ -58,6 +59,14 @@ function resizeev() {
             $(this).remove();
         });
     });
+var ghost0 = document.getElementById('ghost0');
+thisTexts = $(ghost0).attr("id");
+types = $(ghost0).attr("class")
+var position = $(ghost0).attr('coords').split(',');
+x = +position[2] +250;
+y = +position[1] -115;
+$("#mapids").append("<div class='info0' id='info0"+thisTexts+"' style='left:"+x+"px;top:"+y+"px;background-image: url(img/"+thisTexts+".png);'></div>");
+
     });
 
 

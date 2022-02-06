@@ -70,7 +70,12 @@ body.stpage {
 
   background-color: #28272a;
 }
+body.menupage {
 
+  background-color: #28272a;
+  overflow: auto;
+  height: auto;
+}
 
 body.mnpage {
 
@@ -98,7 +103,12 @@ cursor: pointer;
     display: none;
     background-repeat: no-repeat;
 }
-
+.info0 {
+    width: 180px;
+  height: 360px;
+  position: absolute;
+  visibility: hidden;
+}
 .containerdiv {
   border: 0;
   float: inherit;
