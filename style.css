@@ -91,7 +91,7 @@ body.mnpage {
 }
 
 body.orpage {
-  background-color: #ffffff;
+  background-color: #28272a;
 }
 
 .workmclick {
@@ -113,12 +113,26 @@ body.orpage {
   background-repeat: no-repeat;
 }
 
-.info0 {
+.infoup {
+  position: absolute;
+  color: white;
+  width: 218px;
+  height: 130px;
+  text-align: center;
+  display: none;
+  background-repeat: no-repeat;
+}
+
+.infoleft {
+  position: absolute;
+  color: white;
   width: 180px;
   height: 360px;
-  position: absolute;
-  visibility: hidden;
+  text-align: center;
+  display: none;
+  background-repeat: no-repeat;
 }
+
 
 .containerdiv {
   border: 0;

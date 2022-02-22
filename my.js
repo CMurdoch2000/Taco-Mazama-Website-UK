@@ -44,8 +44,8 @@ $(document).ready(function() {
   var y;
   var thisText;
   var type;
-  $("area").hover(function(e) {
-
+  // Display Interactive Menu Images On Hover to Right
+  $("area[value='right']").hover(function(e) {
       thisText = $(this).attr("id");
       type = $(this).attr("class")
       var position = $(this).attr('coords').split(',');
@@ -80,16 +80,77 @@ $(document).ready(function() {
       });
     });
 
-  // Make Invisible Element To Keep Scroll Length For Menu
-  if (window.matchMedia("(min-width: 1140px)").matches && window.location.pathname == '/menu.html') {
-    var ghost0 = document.getElementById('ghost0');
-    thisTexts = $(ghost0).attr("id");
-    types = $(ghost0).attr("class")
-    var position = $(ghost0).attr('coords').split(',');
-    x = +position[2] + 250;
-    y = +position[1] - 115;
-    $("#mapids").append("<div class='info0' id='info0" + thisTexts + "' style='left:" + x + "px;top:" + y + "px;background-image: url(img/menu/" + thisTexts + ".png);'></div>");
-  }
+    // Display Interactive Menu Images On Hover to Left
+    $("area[value='left']").hover(function(e) {
+        thisText = $(this).attr("id");
+        type = $(this).attr("class")
+        var position = $(this).attr('coords').split(',');
+        x = +position[0] + 80;
+        y = +position[1] - 115;
+        if ($(".infoleft").length != 0) {
+          $(".infoleft").fadeOut(500).animate({
+            left: x + 'px'
+          }, {
+            queue: false,
+            duration: 350
+          }).queue(function() {
+            $(this).remove();
+          });
+        }
+        $("#mapids").append("<div class='infoleft' id='infoleft" + thisText + "' style='left:" + x + "px;top:" + y + "px;background-image: url(img/menu/" + thisText + ".png);'></div>");
+        $("#infoleft" + thisText).fadeIn(500).animate({
+          left: x - 20 + 'px'
+        }, {
+          queue: false,
+          duration: 350
+        });
+      },
+      function() {
+        $("#infoleft" + thisText).fadeOut(500).animate({
+          left: x + 'px'
+        }, {
+          queue: false,
+          duration: 350
+        }).queue(function() {
+          $(this).remove();
+        });
+      });
+
+      // Display Interactive Menu Images On Hover to Above
+      $("area[value='up']").hover(function(e) {
+          thisText = $(this).attr("id");
+          type = $(this).attr("class")
+          var position = $(this).attr('coords').split(',');
+          x = +position[2] + 125;
+          y = +position[1] - 110;
+          if ($(".infoup").length != 0) {
+            $(".infoup").fadeOut(500).animate({
+              top: y + 'px'
+            }, {
+              queue: false,
+              duration: 350
+            }).queue(function() {
+              $(this).remove();
+            });
+          }
+          $("#mapids").append("<div class='infoup' id='infoup" + thisText + "' style='left:" + x + "px;top:" + y + "px;background-image: url(img/menu/" + thisText + ".png);'></div>");
+          $("#infoup" + thisText).fadeIn(500).animate({
+            top: y - 10 + 'px'
+          }, {
+            queue: false,
+            duration: 350
+          });
+        },
+        function() {
+          $("#infoup" + thisText).fadeOut(500).animate({
+            top: y + 'px'
+          }, {
+            queue: false,
+            duration: 350
+          }).queue(function() {
+            $(this).remove();
+          });
+        });
 });
 
 // When Page Is Loading
@@ -106,14 +167,4 @@ $(window).on("load", function() {
   $('#img3m').height($(window).height() - $('#navi').height());
   $('#img4m').height($(window).height() - $('#navi').height());
 
-  // Make Invisible Element To Keep Scroll Length For Menu
-  if (window.matchMedia("(min-width: 1140px)").matches && window.location.pathname == '/menu.html') {
-    var ghost0 = document.getElementById('ghost0');
-    thisTexts = $(ghost0).attr("id");
-    types = $(ghost0).attr("class")
-    var position = $(ghost0).attr('coords').split(',');
-    x = +position[2] + 250;
-    y = +position[1] - 115;
-    $("#mapids").append("<div class='info0' id='info0" + thisTexts + "' style='left:" + x + "px;top:" + y + "px;background-image: url(img/menu/" + thisTexts + ".png);'></div>");
-  }
 });
