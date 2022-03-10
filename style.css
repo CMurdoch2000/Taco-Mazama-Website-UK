@@ -176,6 +176,12 @@ body.orpage {
   padding-bottom: 12.5vh;
 }
 
+
+.spadin {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
 .mpadin2 {
   padding-top: 12.5vh;
   padding-bottom: 0vh;
@@ -365,6 +371,32 @@ a.linkswq:active {
   color: #a4a095 !important;
 }
 
+button.linkB {
+    background: transparent;
+    color: #b86a02;
+    border: none;
+    outline: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+button.linkB:hover  {
+    color: #fbf6e4;
+}
+
+button.linkB2 {
+    background: transparent;
+    color: #a4a095;
+    border: none;
+    outline: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+button.linkB2:hover  {
+    color: #fbf6e4;
+}
+#collection-component-1646766456367{
+  visibility:hidden;
+}
 #smicon .actions a {
   display: inline-block;
   border-radius: 2px;

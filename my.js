@@ -1,3 +1,29 @@
+function foodClick() {
+  var Button1=document.getElementById("foodClick");
+  var Button2=document.getElementById("sideClick");
+Button1.classList.remove('linkB2','linkB');
+Button1.classList.add('linkB');
+Button2.classList.remove('linkB2','linkB');
+Button2.classList.add('linkB2');
+document.getElementById("collection-component-1646766456367").style.display = "none";
+document.getElementById("collection-component-1646763905126").style.display = "inline";
+
+}
+
+function sideClick() {
+  var Button1=document.getElementById("sideClick");
+  var Button2=document.getElementById("foodClick");
+Button1.classList.remove('linkB2','linkB');
+Button1.classList.add('linkB');
+Button2.classList.remove('linkB2','linkB');
+Button2.classList.add('linkB2');
+document.getElementById("collection-component-1646763905126").style.display = "none";
+document.getElementById("collection-component-1646766456367").style.display = "inline";
+document.getElementById("collection-component-1646766456367").style.visibility = "visible";
+}
+
+setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 2000);
+
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
 function resizeev() {
@@ -11,7 +37,7 @@ function resizeev() {
   } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/sustainability.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
-  } else if (window.location.pathname == '/menu.html') {
+  } else if (window.location.pathname == '/menu.html' || window.location.pathname == '/store.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
   } else {
@@ -121,7 +147,7 @@ $(document).ready(function() {
           thisText = $(this).attr("id");
           type = $(this).attr("class")
           var position = $(this).attr('coords').split(',');
-          x = +position[2] + 125;
+          x = +position[2] + 30;
           y = +position[1] - 110;
           if ($(".infoup").length != 0) {
             $(".infoup").fadeOut(500).animate({
@@ -151,7 +177,11 @@ $(document).ready(function() {
             $(this).remove();
           });
         });
+
 });
+
+
+
 
 // When Page Is Loading
 $(window).on("load", function() {
@@ -166,5 +196,4 @@ $(window).on("load", function() {
   $('#img2m').height($(window).height() - $('#navi').height());
   $('#img3m').height($(window).height() - $('#navi').height());
   $('#img4m').height($(window).height() - $('#navi').height());
-
 });
