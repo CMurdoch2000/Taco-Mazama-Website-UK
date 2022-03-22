@@ -58,8 +58,8 @@
 
 @media all and (min-width: 1900px) {
   body.stpage {
-    overflow: hidden;
-    height: 100%;
+    overflow: auto;
+    height: auto;
   }
 }
 
@@ -264,7 +264,7 @@ th {
 }
 
 .tlocn {
-  font-size: 1.3em !important;
+  font-size: 1.1em !important;
   font-weight: bold;
 }
 
@@ -394,7 +394,16 @@ button.linkB2 {
 button.linkB2:hover  {
     color: #fbf6e4;
 }
+#collection-component-1647948826243{
+  visibility:hidden;
+}
+#collection-component-1647948963202{
+  visibility:hidden;
+}
 #collection-component-1646766456367{
+  visibility:hidden;
+}
+#kitMenu{
   visibility:hidden;
 }
 #smicon .actions a {

@@ -1,28 +1,86 @@
 function foodClick() {
   var Button1=document.getElementById("foodClick");
-  var Button2=document.getElementById("sideClick");
+  var Button2=document.getElementById("fajitaClick");
+  var Button3=document.getElementById("tacoClick");
+  var Button4=document.getElementById("sideClick");
 Button1.classList.remove('linkB2','linkB');
 Button1.classList.add('linkB');
 Button2.classList.remove('linkB2','linkB');
 Button2.classList.add('linkB2');
+Button3.classList.remove('linkB2','linkB');
+Button3.classList.add('linkB2');
+Button4.classList.remove('linkB2','linkB');
+Button4.classList.add('linkB2');
+document.getElementById("collection-component-1647948826243").style.display = "none";
+document.getElementById("collection-component-1647948963202").style.display = "none";
 document.getElementById("collection-component-1646766456367").style.display = "none";
-document.getElementById("collection-component-1646763905126").style.display = "inline";
+document.getElementById("collection-component-1647948263939").style.display = "inline";
+}
 
+function fajitaClick() {
+  var Button1=document.getElementById("foodClick");
+  var Button2=document.getElementById("fajitaClick");
+  var Button3=document.getElementById("tacoClick");
+  var Button4=document.getElementById("sideClick");
+Button1.classList.remove('linkB2','linkB');
+Button1.classList.add('linkB2');
+Button2.classList.remove('linkB2','linkB');
+Button2.classList.add('linkB');
+Button3.classList.remove('linkB2','linkB');
+Button3.classList.add('linkB2');
+Button4.classList.remove('linkB2','linkB');
+Button4.classList.add('linkB2');
+document.getElementById("collection-component-1647948263939").style.display = "none";
+document.getElementById("collection-component-1647948963202").style.display = "none";
+document.getElementById("collection-component-1646766456367").style.display = "none";
+document.getElementById("collection-component-1647948826243").style.display = "inline";
+document.getElementById("collection-component-1647948826243").style.visibility = "visible";
+}
+
+function tacoClick() {
+  var Button1=document.getElementById("foodClick");
+  var Button2=document.getElementById("fajitaClick");
+  var Button3=document.getElementById("tacoClick");
+  var Button4=document.getElementById("sideClick");
+Button1.classList.remove('linkB2','linkB');
+Button1.classList.add('linkB2');
+Button2.classList.remove('linkB2','linkB');
+Button2.classList.add('linkB2');
+Button3.classList.remove('linkB2','linkB');
+Button3.classList.add('linkB');
+Button4.classList.remove('linkB2','linkB');
+Button4.classList.add('linkB2');
+document.getElementById("collection-component-1647948263939").style.display = "none";
+document.getElementById("collection-component-1647948826243").style.display = "none";
+document.getElementById("collection-component-1646766456367").style.display = "none";
+document.getElementById("collection-component-1647948963202").style.display = "inline";
+document.getElementById("collection-component-1647948963202").style.visibility = "visible";
 }
 
 function sideClick() {
-  var Button1=document.getElementById("sideClick");
-  var Button2=document.getElementById("foodClick");
+  var Button1=document.getElementById("foodClick");
+  var Button2=document.getElementById("fajitaClick");
+  var Button3=document.getElementById("tacoClick");
+  var Button4=document.getElementById("sideClick");
 Button1.classList.remove('linkB2','linkB');
-Button1.classList.add('linkB');
+Button1.classList.add('linkB2');
 Button2.classList.remove('linkB2','linkB');
 Button2.classList.add('linkB2');
-document.getElementById("collection-component-1646763905126").style.display = "none";
+Button3.classList.remove('linkB2','linkB');
+Button3.classList.add('linkB2');
+Button4.classList.remove('linkB2','linkB');
+Button4.classList.add('linkB');
+document.getElementById("collection-component-1647948263939").style.display = "none";
+document.getElementById("collection-component-1647948826243").style.display = "none";
+document.getElementById("collection-component-1647948963202").style.display = "none";
 document.getElementById("collection-component-1646766456367").style.display = "inline";
 document.getElementById("collection-component-1646766456367").style.visibility = "visible";
 }
 
-setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 2000);
+setTimeout(function waitr() {document.getElementById("collection-component-1647948826243").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("collection-component-1647948963202").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 4000);
 
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
@@ -31,13 +89,10 @@ function resizeev() {
   if (window.matchMedia("(max-width: 1140px)").matches || window.location.pathname == '/allegens.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
-  } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/stores.html') {
-    document.body.style.overflow = "auto";
-    document.body.style.height = "auto";
   } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/sustainability.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
-  } else if (window.location.pathname == '/menu.html' || window.location.pathname == '/store.html') {
+  } else if (window.location.pathname == '/menu.html' || window.location.pathname == '/store.html'  || window.location.pathname == '/stores.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
   } else {
