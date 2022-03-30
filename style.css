@@ -406,6 +406,30 @@ button.linkB2:hover  {
 #kitMenu{
   visibility:hidden;
 }
+.announcement {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: #b86a02;
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  vertical-align: middle;
+  font-size: 2em;
+}
+.announcement a {
+  color: white;
+}
+.pclas{
+  margin-bottom: 0;
+}
+.announcement a:hover {
+  color: black;
+}
 #smicon .actions a {
   display: inline-block;
   border-radius: 2px;
