@@ -25,7 +25,7 @@
   }
 
   a.linkswq:link {
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
   }
 }
 
@@ -302,7 +302,7 @@ th {
 
 .responsivei {
   max-width: 100%;
-  width: 600px;
+  width: 350px;
   height: auto;
 }
 
@@ -419,7 +419,7 @@ button.linkB2:hover  {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   vertical-align: middle;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 .announcement a {
   color: white;
