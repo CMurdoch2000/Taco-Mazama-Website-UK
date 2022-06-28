@@ -158,7 +158,7 @@ $(document).ready(function() {
   $('#img3m').height($(window).height() - $('#navi').height());
   $('#img4m').height($(window).height() - $('#navi').height());
   // Set Slides Speed
-  jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000 // 2 seconds
+  jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2500 // 2.5 seconds
   // Set Hover Zone For Items On Menu
   $('map').imageMapResize();
 
