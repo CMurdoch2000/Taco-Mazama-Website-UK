@@ -29,6 +29,8 @@
   }
 }
 
+
+
 @media not all and (min-width: 1140px) {
   body {
     overflow: auto;
@@ -69,6 +71,7 @@
     height: auto;
   }
 }
+
 
 body.alpage {
   overflow: auto;
@@ -394,7 +397,46 @@ button.linkB2 {
 button.linkB2:hover  {
     color: #fbf6e4;
 }
+
+button.linkyB {
+  background: transparent;
+  color: #b86a02;
+  border: none;
+  outline: 0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+button.linkyB:hover  {
+  color: #fbf6e4;
+}
+
+button.linkyB2 {
+  background: transparent;
+  color: #a4a095;
+  border: none;
+  outline: 0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+button.linkyB2:hover  {
+  color: #fbf6e4;
+}
+
 #collection-component-1647948826243{
+  visibility:hidden;
+}
+#collection-component-1690188617292{
+  visibility:hidden;
+}
+#collection-component-1690188807331{
+  visibility:hidden;
+}
+#collection-component-1690189023142{
+  visibility:hidden;
+}
+
+
+#collection-component-1690188244208{
   visibility:hidden;
 }
 #collection-component-1647948963202{
@@ -406,6 +448,7 @@ button.linkB2:hover  {
 #collection-component-1652338127288{
   visibility:hidden;
 }
+
 #kitMenu{
   visibility:hidden;
 }

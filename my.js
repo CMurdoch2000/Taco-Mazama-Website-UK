@@ -124,6 +124,133 @@ setTimeout(function waitr() {document.getElementById("collection-component-16523
 setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 4000);
 
+// Catering
+function foodyClick() {
+  var Button1=document.getElementById("foodyClick");
+  var Button2=document.getElementById("fajitayClick");
+  var Button3=document.getElementById("tacoyClick");
+  var Button4=document.getElementById("sideyClick");
+  var Button5=document.getElementById("veganyClick");
+Button1.classList.remove('linkyB2','linkyB');
+Button1.classList.add('linkyB');
+Button2.classList.remove('linkyB2','linkyB');
+Button2.classList.add('linkyB2');
+Button3.classList.remove('linkyB2','linkyB');
+Button3.classList.add('linkyB2');
+Button4.classList.remove('linkyB2','linkyB');
+Button4.classList.add('linkyB2');
+Button5.classList.remove('linkyB2','linkyB');
+Button5.classList.add('linkyB2');
+document.getElementById("collection-component-1690188244208").style.display = "none";
+document.getElementById("collection-component-1690188617292").style.display = "none";
+document.getElementById("collection-component-1690189023142").style.display = "none";
+document.getElementById("collection-component-1690188807331").style.display = "none";
+document.getElementById("collection-component-1690186838415").style.display = "inline";
+}
+
+function fajitayClick() {
+  var Button1=document.getElementById("foodyClick");
+  var Button2=document.getElementById("fajitayClick");
+  var Button3=document.getElementById("tacoyClick");
+  var Button4=document.getElementById("sideyClick");
+  var Button5=document.getElementById("veganyClick");
+Button1.classList.remove('linkyB2','linkyB');
+Button1.classList.add('linkyB2');
+Button2.classList.remove('linkyB2','linkyB');
+Button2.classList.add('linkyB');
+Button3.classList.remove('linkyB2','linkyB');
+Button3.classList.add('linkyB2');
+Button4.classList.remove('linkyB2','linkyB');
+Button4.classList.add('linkyB2');
+Button5.classList.remove('linkyB2','linkyB');
+Button5.classList.add('linkyB2');
+document.getElementById("collection-component-1690186838415").style.display = "none";
+document.getElementById("collection-component-1690188617292").style.display = "none";
+document.getElementById("collection-component-1690189023142").style.display = "none";
+document.getElementById("collection-component-1690188807331").style.display = "none";
+document.getElementById("collection-component-1690188244208").style.display = "inline";
+document.getElementById("collection-component-1690188244208").style.visibility = "visible";
+}
+
+function tacoyClick() {
+  var Button1=document.getElementById("foodyClick");
+  var Button2=document.getElementById("fajitayClick");
+  var Button3=document.getElementById("tacoyClick");
+  var Button4=document.getElementById("sideyClick");
+  var Button5=document.getElementById("veganyClick");
+Button1.classList.remove('linkyB2','linkyB');
+Button1.classList.add('linkyB2');
+Button2.classList.remove('linkyB2','linkyB');
+Button2.classList.add('linkyB2');
+Button3.classList.remove('linkyB2','linkyB');
+Button3.classList.add('linkyB');
+Button4.classList.remove('linkyB2','linkyB');
+Button4.classList.add('linkyB2');
+Button5.classList.remove('linkyB2','linkyB');
+Button5.classList.add('linkyB2');
+document.getElementById("collection-component-1690186838415").style.display = "none";
+document.getElementById("collection-component-1690188244208").style.display = "none";
+document.getElementById("collection-component-1690189023142").style.display = "none";
+document.getElementById("collection-component-1690188807331").style.display = "none";
+document.getElementById("collection-component-1690188617292").style.display = "inline";
+document.getElementById("collection-component-1690188617292").style.visibility = "visible";
+}
+
+function veganyClick() {
+  var Button1=document.getElementById("foodyClick");
+  var Button2=document.getElementById("fajitayClick");
+  var Button3=document.getElementById("tacoyClick");
+  var Button4=document.getElementById("sideyClick");
+  var Button5=document.getElementById("veganyClick");
+Button1.classList.remove('linkyB2','linkyB');
+Button1.classList.add('linkyB2');
+Button2.classList.remove('linkyB2','linkyB');
+Button2.classList.add('linkyB2');
+Button3.classList.remove('linkyB2','linkyB');
+Button3.classList.add('linkyB2');
+Button4.classList.remove('linkyB2','linkyB');
+Button4.classList.add('linkyB2');
+Button5.classList.remove('linkyB2','linkyB');
+Button5.classList.add('linkyB');
+document.getElementById("collection-component-1690186838415").style.display = "none";
+document.getElementById("collection-component-1690188244208").style.display = "none";
+document.getElementById("collection-component-1690189023142").style.display = "none";
+document.getElementById("collection-component-1690188617292").style.display = "none";
+document.getElementById("collection-component-1690188807331").style.display = "inline";
+document.getElementById("collection-component-1690188807331").style.visibility = "visible";
+}
+
+
+function sideyClick() {
+  var Button1=document.getElementById("foodyClick");
+  var Button2=document.getElementById("fajitayClick");
+  var Button3=document.getElementById("tacoyClick");
+  var Button4=document.getElementById("sideyClick");
+  var Button5=document.getElementById("veganyClick");
+Button1.classList.remove('linkyB2','linkyB');
+Button1.classList.add('linkyB2');
+Button2.classList.remove('linkyB2','linkyB');
+Button2.classList.add('linkyB2');
+Button3.classList.remove('linkyB2','linkyB');
+Button3.classList.add('linkyB2');
+Button4.classList.remove('linkyB2','linkyB');
+Button4.classList.add('linkyB');
+Button5.classList.remove('linkyB2','linkyB');
+Button5.classList.add('linkyB2');
+document.getElementById("collection-component-1690186838415").style.display = "none";
+document.getElementById("collection-component-1690188244208").style.display = "none";
+document.getElementById("collection-component-1690188617292").style.display = "none";
+document.getElementById("collection-component-1690188807331").style.display = "none";
+document.getElementById("collection-component-1690189023142").style.display = "inline";
+document.getElementById("collection-component-1690189023142").style.visibility = "visible";
+}
+
+setTimeout(function waitr() {document.getElementById("collection-component-1690188244208").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("collection-component-1690188617292").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("collection-component-1690188807331").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("collection-component-1690189023142").style.display = "none";}, 4000);
+setTimeout(function waitr() {document.getElementById("platerMenu").style.visibility = "visible";}, 4000);
+
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
 function resizeev() {
@@ -131,10 +258,10 @@ function resizeev() {
   if (window.matchMedia("(max-width: 1140px)").matches || window.location.pathname == '/allegens.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
-  } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/sustainability.html') {
+  } else if (window.matchMedia("(max-width: 1900px)").matches && window.location.pathname == '/aboutus.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
-  } else if (window.location.pathname == '/menu.html' || window.location.pathname == '/store.html'  || window.location.pathname == '/stores.html') {
+  } else if (window.location.pathname == '/menu.html' || window.location.pathname == '/store.html'  || window.location.pathname == '/stores.html' || window.location.pathname == '/catering.html') {
     document.body.style.overflow = "auto";
     document.body.style.height = "auto";
   } else {
