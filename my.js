@@ -257,7 +257,7 @@ setTimeout(function waitr() {document.getElementById("collection-component-16901
 setTimeout(function waitr() {document.getElementById("collection-component-1690188617292").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690188807331").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690189023142").style.display = "none";}, 4000);
-setTimeout(function waitr() {document.getElementById("platerMenu").style.visibility = "visible";}, 0000);
+setTimeout(function waitr() {document.getElementById("PlattersMenu").style.visibility = "visible";}, 0000);
 
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
