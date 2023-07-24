@@ -1,3 +1,11 @@
+/* Loading Screen*/
+let loader = document.querySelector('#loader');
+if (loader) {
+  window.addEventListener('load', () => {
+    loader.remove()
+  });
+}
+
 function foodClick() {
   var Button1=document.getElementById("foodClick");
   var Button2=document.getElementById("fajitaClick");
@@ -122,7 +130,7 @@ setTimeout(function waitr() {document.getElementById("collection-component-16479
 setTimeout(function waitr() {document.getElementById("collection-component-1647948963202").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1652338127288").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 4000);
-setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 4000);
+setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 0000);
 
 // Catering
 function foodyClick() {
@@ -249,7 +257,7 @@ setTimeout(function waitr() {document.getElementById("collection-component-16901
 setTimeout(function waitr() {document.getElementById("collection-component-1690188617292").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690188807331").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690189023142").style.display = "none";}, 4000);
-setTimeout(function waitr() {document.getElementById("platerMenu").style.visibility = "visible";}, 4000);
+setTimeout(function waitr() {document.getElementById("platerMenu").style.visibility = "visible";}, 0000);
 
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
