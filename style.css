@@ -197,6 +197,15 @@ body.orpage {
   max-width: 100%;
 }
 
+.hideim3 {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+
 .hideim {
   padding: 0;
   margin: 0 auto;
@@ -219,6 +228,7 @@ body.orpage {
   height: auto;
   width: 100%;
 }
+
 
 .mpadin {
   padding-top: 12.5vh;
