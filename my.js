@@ -130,7 +130,7 @@ setTimeout(function waitr() {document.getElementById("collection-component-16479
 setTimeout(function waitr() {document.getElementById("collection-component-1647948963202").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1652338127288").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1646766456367").style.display = "none";}, 4000);
-setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 0000);
+setTimeout(function waitr() {document.getElementById("kitMenu").style.visibility = "visible";}, 0o0000);
 
 // Catering
 function foodyClick() {
@@ -257,7 +257,7 @@ setTimeout(function waitr() {document.getElementById("collection-component-16901
 setTimeout(function waitr() {document.getElementById("collection-component-1690188617292").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690188807331").style.display = "none";}, 4000);
 setTimeout(function waitr() {document.getElementById("collection-component-1690189023142").style.display = "none";}, 4000);
-setTimeout(function waitr() {document.getElementById("PlattersMenu").style.visibility = "visible";}, 0000);
+setTimeout(function waitr() {document.getElementById("PlattersMenu").style.visibility = "visible";}, 0o0000);
 
 // Hide Scrollbar For Desktop Resizing
 window.onresize = resizeev;
