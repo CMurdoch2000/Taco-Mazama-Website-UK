@@ -5,16 +5,16 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 ## 📖 Overview
-This repository contains the front-end source code for a responsive restaurant website tailored for Taco Mazama (UK). Built with a mobile-first approach, the project demonstrates foundational web development skills, UI/UX design principles, and the practical implementation of the Bootstrap CSS framework[span_0](start_span)[span_0](end_span).
+This repository contains the front-end source code for a responsive restaurant website tailored for Taco Mazama (UK). Built with a mobile-first approach, the project demonstrates foundational web development skills, UI/UX design principles, and the practical implementation of the Bootstrap CSS framework.
 
 ## ✨ Key Features
-* **Responsive Design:** Utilises Bootstrap's grid system (`bootstrap-grid.css` and `bootstrap.css`) to ensure a seamless browsing experience across mobile, tablet, and desktop devices[span_1](start_span)[span_1](end_span).
-* **Customer Information Pages:** Includes dedicated front-end views for company history (`aboutus.html`) and crucial dietary/health information (`allegens.html`)[span_2](start_span)[span_2](end_span).
-* **Asset Integration:** Incorporates web assets, including promotional hero images (`heroimg.jpg`) and third-party delivery/social links like Deliveroo and Facebook[span_3](start_span)[span_3](end_span).
+* **Responsive Design:** Utilises Bootstrap's grid system (`bootstrap-grid.css` and `bootstrap.css`) to ensure a seamless browsing experience across mobile, tablet, and desktop devices.
+* **Customer Information Pages:** Includes dedicated front-end views for company history (`aboutus.html`) and crucial dietary/health information (`allegens.html`).
+* **Asset Integration:** Incorporates web assets, including promotional hero images (`heroimg.jpg`) and third-party delivery/social links like Deliveroo and Facebook.
 
 ## 🛠️ Tech Stack
 * **Markup:** HTML5
-* **Styling:** CSS3, Bootstrap Framework[span_4](start_span)[span_4](end_span)
+* **Styling:** CSS3, Bootstrap Framework
 * **Version Control:** Git & GitHub
 
 ## 📂 Repository Structure
